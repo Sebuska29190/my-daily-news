@@ -1,16 +1,49 @@
-# React + Vite
+# 📰 My Daily News
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive news portal built using **React**, **React Router**, **Firebase Authentication**, and **Tailwind CSS**.  
+This website allows users to read latest news by categories, view news details, and securely login using Google or Email/Password.
 
-Currently, two official plugins are available:
+🌐 **Live Website:** https://my-daily-news-d7dec.web.app/category/0  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Fully Responsive UI  
+✅ News Category Based Routing  
+✅ Single News Detailed Page  
+✅ Firebase Authentication Implemented  
+✅ Login with Google & Email/Password  
+✅ Private/Protected Routes for News Details  
+✅ Dynamic Navigation & Active Category Highlight  
+✅ News Author Info, Publish Date & Views Count Show  
+✅ Trending & Rating Badge System  
+✅ Loading Spinner Support  
+✅ Reusable Components Design  
+✅ Error Handling with Fallback Pages  
+✅ Hosted on Firebase
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|-----------|---------|
+| React.js | Frontend UI |
+| React Router DOM | Navigation & Routing |
+| Firebase Auth | User Login System |
+| Firebase Hosting | Deployment |
+| Tailwind / CSS | DaisyUI Styling |
+| PropTypes | Type Validation |
+
+---
+
+## 🔑 Firebase Authentication
+
+✔ Google Login  
+✔ Email/Password Sign Up & Sign In  
+✔ Auth Context using `onAuthStateChanged`  
+✔ Redirect after Login  
+✔ Logout System Enabled  
+
+
