@@ -24,7 +24,7 @@ const Categorynews = () => {
 
     return (
         <div>
-            <h1>Category news- {shownews.length}</h1>
+            <h1> All Newses</h1>
 
             <div className='grid grid-cols-1'>
                 {
