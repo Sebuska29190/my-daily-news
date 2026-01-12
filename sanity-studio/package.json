@@ -1,0 +1,35 @@
+{
+  "name": "my-daily-news-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sanity Studio for My Daily News CMS",
+  "main": "sanity.config.ts",
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "sanity": "^3.0.0",
+    "@sanity/vision": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^9.0.0",
+    "@sanity/eslint-config-studio": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT"
+}

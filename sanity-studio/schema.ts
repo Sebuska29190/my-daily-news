@@ -9,14 +9,14 @@ export const category = defineType({
       name: 'title',
       title: 'Title',
       type: 'string',
-      validation: (Rule) => Rule.required(),
+      validation: (Rule: any) => Rule.required(),
     }),
     defineField({
       name: 'categoryId',
       title: 'Category ID',
       type: 'number',
       description: 'Numeric ID matching the original JSON category_id',
-      validation: (Rule) => Rule.required().integer(),
+      validation: (Rule: any) => Rule.required().integer(),
     }),
   ],
 })
@@ -30,7 +30,7 @@ export const article = defineType({
       name: 'title',
       title: 'Title',
       type: 'string',
-      validation: (Rule) => Rule.required(),
+      validation: (Rule: any) => Rule.required(),
     }),
     defineField({
       name: 'slug',
@@ -40,14 +40,14 @@ export const article = defineType({
         source: 'title',
         maxLength: 96,
       },
-      validation: (Rule) => Rule.required(),
+      validation: (Rule: any) => Rule.required(),
     }),
     defineField({
       name: 'category',
       title: 'Category',
       type: 'reference',
       to: [{ type: 'category' }],
-      validation: (Rule) => Rule.required(),
+      validation: (Rule: any) => Rule.required(),
     }),
     defineField({
       name: 'rating',
@@ -58,7 +58,7 @@ export const article = defineType({
           name: 'number',
           title: 'Number',
           type: 'number',
-          validation: (Rule) => Rule.required().min(1).max(5),
+          validation: (Rule: any) => Rule.required().min(1).max(5),
         }),
         defineField({
           name: 'badge',
@@ -74,7 +74,7 @@ export const article = defineType({
       name: 'total_view',
       title: 'Total Views',
       type: 'number',
-      validation: (Rule) => Rule.required().min(0),
+      validation: (Rule: any) => Rule.required().min(0),
     }),
     defineField({
       name: 'author',
