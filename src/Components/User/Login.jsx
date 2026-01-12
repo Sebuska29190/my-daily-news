@@ -1,6 +1,7 @@
 import React, { useContext,  } from 'react';
 import { Link, useNavigate } from 'react-router';
 import { AuthContext } from '../../Authprovider/Authprovider';
+import Sociallogin from '../Social/Sociallogin';
 
 const Login = () => {
   const { Signin } = useContext(AuthContext)
@@ -36,6 +37,7 @@ const Login = () => {
             <input name='password' type="password" className="input" placeholder="Password" />
             <div><Link to='/auth/passwordreset' className="link link-hover">Forgot password?</Link></div>
             <button type="submit" className="btn btn-neutral mt-4">Login</button>
+            <Sociallogin />
             <p className='font-semibold text-center py-3'>Dont’t Have An Account ?<Link className='text-secondary' to='/auth/register'>Register</Link></p>
           </fieldset>
         </form>
